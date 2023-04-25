@@ -18,7 +18,7 @@ const Popularjobs = () => {
   const router = useRouter();
 
   const { data, isLoading, error } = useFetch("search", {
-    query: "React Developer",
+    query: "Software Engineer in India",
     page: "1",
     num_page: "1",
   });

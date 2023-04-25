@@ -42,6 +42,12 @@ const styles = StyleSheet.create({
     marginTop: 3,
     textTransform: "capitalize",
   },
+  jobLocation: {
+    fontFamily: "DMRegular",
+    color: COLORS.gray,
+    marginTop: 3,
+    textTransform: "uppercase",
+  },
 });
 
 export default styles;

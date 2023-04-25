@@ -23,7 +23,10 @@ const NearbyJobCard = ({ job, handleNavigate }) => {
         <Text style={styles.jobName} numberOfLines={1}>
           {job.job_title}
         </Text>
-        <Text style={styles.jobType}>{job.job_employment_type}</Text>
+        <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
+          <Text style={styles.jobLocation}>{job.job_country}</Text>
+          <Text style={styles.jobType}>{job.job_employment_type}</Text>
+        </View>
       </View>
     </TouchableOpacity>
   );
